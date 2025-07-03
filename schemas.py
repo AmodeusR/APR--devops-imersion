@@ -1,4 +1,4 @@
-from pydantic import BaseModel, EmailStr
+from pydantic import BaseModel, EmailStr # type: ignore[missing-module-attribute]
 from typing import List
 
 class Matricula(BaseModel):
